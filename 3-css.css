@@ -1,0 +1,132 @@
+/* general */
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+:root {
+    --maincolor: #f47c7c;
+    --secodcolor1: #00b554;
+    --secodcolor2: #FBB4B4;
+    --secodcolor3: #ace9c8;
+    --secodcolor4: #f46262;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+body {
+    background-color: var(--secodcolor2);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+/* heading */
+
+
+.title {
+    color: var(--maincolor);
+}
+
+h5 {
+    color: var(--secodcolor1);
+}
+
+/* form */
+
+.site-name,
+.site-url {
+    color: var(--maincolor);
+}
+
+.site-form,
+.url-form,
+.search {
+    border: 1px solid var(--secodcolor1);
+
+}
+
+
+.url-form::placeholder,
+.site-form::placeholder,
+.search::placeholder {
+    color: var(--secodcolor2);
+
+}
+
+.site-form:focus,
+.url-form:focus,
+.search:focus {
+    border: 1px solid var(--secodcolor1);
+    box-shadow: none;
+
+}
+
+.btn-add {
+    background-color: var(--maincolor);
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn-add:hover {
+    background-color: var(--secodcolor4);
+    color: white;
+}
+
+
+
+
+
+/* url list */
+
+
+
+.table :not(caption) {
+    padding: .5rem .5rem;
+    color: var(--maincolor);
+
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: var(--secodcolor1);
+}
+
+
+.btnclose {
+    background-color: #00b554;
+    color: white;
+    border: 0;
+}
+
+.btnclose:hover {
+    background-color: #00b554;
+    color: white;
+
+}
+
+.modal-body p {
+    color: var(--secodcolor4);
+}
+
+
+.modal-body p span {
+    color: var(--secodcolor1);
+}
